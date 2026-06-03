@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**Nama Proyek:** GitHub Issue Tracker & Analytics Dashboard
+**Versi:** 1.0.0
 
-## Getting Started
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 1. Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1.1 Deskripsi Produk
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+GitHub Issue Tracker & Analytics Dashboard adalah platform web yang memungkinkan developer dan tim engineering untuk melacak, mengelola, dan menganalisis issues dari repository GitHub yang mereka ikuti atau kelola. Platform ini menyediakan layer tambahan di atas GitHub native issues, berupa custom labeling, personal notes, dan analytics mendalam yang tidak tersedia secara bawaan di GitHub.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1.2 Tujuan Produk
 
-## Learn More
+- Memberikan visibilitas menyeluruh terhadap kondisi issues di berbagai repository GitHub dalam satu dashboard terpusat.
+- Memungkinkan pengelolaan issue yang lebih kaya dengan fitur custom label dan catatan internal.
+- Menyediakan analytics dan metrik yang actionable untuk membantu tim membuat keputusan berbasis data.
 
-To learn more about Next.js, take a look at the following resources:
+### 1.3 Target Pengguna
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Persona | Deskripsi |
+|---|---|
+| Individual Developer | Developer yang mengelola beberapa repo pribadi atau open-source |
+| Engineering Lead / Tech Lead | Membutuhkan overview lintas repo untuk monitoring health proyek |
+| Project Manager | Membutuhkan laporan dan statistik progres penyelesaian issues |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
